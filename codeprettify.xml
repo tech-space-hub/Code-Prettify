@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="content">
+  <name>Code Prettify</name>
+  <author>Tech Space Hub</author>
+  <creationDate>08 November 2022</creationDate>
+  <copyright>Copyright (C) 2022 Tech Space Hub, All rights reserved.</copyright>
+  <license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+  <authorEmail>talk@techspacehub.com</authorEmail>
+  <authorUrl>https://techspacehub.com/</authorUrl>
+  <version>1.0.0</version>
+  <description>
+    <![CDATA[<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><p>You can use this Joomla plugin to make any article's html, CSS, and javascript code seem beautiful. It supports a variety of themes, including Sons of Obsidian, Desert, Sunburst, Doxy, and Prettify. Additionally, this plugin will allow you to enable/disable line numbers in the code snippet.</p><p>It contains a straightforward shortcode called {codeprettify}...{/codeprettify}, any html, CSS, or javascript code entered within this brief code will be converted by this plugin and displayed in an attractive manner in any article.</p></td></tr></table>]]>
+  </description>
+  <files>
+    <filename plugin="codeprettify">codeprettify.php</filename>
+    <filename>index.html</filename>
+	<folder>src</folder>
+  </files>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="enabled" type="radio" default="1" label="Enable Plugin" description="Enable Plugin" class="btn-group">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </field>
+        <field name="showlinenumbers" type="radio" default="1" label="Show Line Numbers" description="Please select yes to show line numbers" class="btn-group">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </field>				
+		<field name="codeprettifytheme" type="list" label="Theme" description="Please select a theme" default="prettify.css" validate="options">
+			<option value="prettify.css">Prettify</option>
+			<option value="sunburst.css">Sunburst</option>
+			<option value="doxy.css">Doxy</option>
+			<option value="desert.css">Desert</option>
+			<option value="sons-of-obsidian.css">Sons of Obsidian</option>
+			<option value="no-theme.css">No Theme</option>
+		</field> 		
+		
+      </fieldset>
+      <fieldset name="advanced"></fieldset>
+    </fields>
+  </config>
+
+</extension>
