@@ -40,5 +40,7 @@
       <fieldset name="advanced"></fieldset>
     </fields>
   </config>
-
+  <updateservers>
+	<server type="extension" name="Code Prettify Updates">https://techspacehub.com/extensionsupdate/codeprettify/codeprettify.xml</server>
+  </updateservers>
 </extension>
