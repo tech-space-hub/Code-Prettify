@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="1.6" type="plugin" group="content">
-  <name>Code Prettify</name>
+<extension version="1.6" type="plugin" group="content" method="upgrade">
+  <name>Content - Code Prettify</name>
   <author>Tech Space Hub</author>
   <creationDate>08 November 2022</creationDate>
   <copyright>Copyright (C) 2022 Tech Space Hub, All rights reserved.</copyright>
