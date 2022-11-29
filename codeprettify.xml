@@ -7,7 +7,7 @@
   <license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
   <authorEmail>talk@techspacehub.com</authorEmail>
   <authorUrl>https://techspacehub.com/</authorUrl>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <description>
     <![CDATA[<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><p>You can use this Joomla plugin to make any article's html, CSS, and javascript code seem beautiful. It supports a variety of themes, including Sons of Obsidian, Desert, Sunburst, Doxy, and Prettify. Additionally, this plugin will allow you to enable/disable line numbers in the code snippet.</p><p>It contains a straightforward shortcode called {codeprettify}...{/codeprettify}, any html, CSS, or javascript code entered within this brief code will be converted by this plugin and displayed in an attractive manner in any article.</p></td></tr></table>]]>
   </description>

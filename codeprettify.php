@@ -13,7 +13,7 @@ jimport("joomla.plugin.plugin");
 
 class plgContentcodeprettify extends JPlugin
 {
-	function plgContentcodeprettify(&$subject, $params)
+	function __construct(&$subject, $params)
 	{
 		parent::__construct($subject, $params);
 	}
